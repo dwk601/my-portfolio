@@ -1,0 +1,12 @@
+.header-title {
+    flex-grow: 1;
+  }
+  
+  .desktop-menu {
+    display: flex;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
