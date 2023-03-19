@@ -1,0 +1,14 @@
+.aboutme-container {
+    padding: 2rem;
+  }
+  
+  .aboutme-bio {
+    margin-bottom: 1rem;
+  }
+  
+  .aboutme-avatar {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  
