@@ -1,15 +1,13 @@
-import React from 'react';
-import { createRoot } from 'react-dom';
-import App from './App';
-import theme from './theme';
-import { ThemeProvider } from '@mui/material/styles';
+import React from "react";
+import ReactDOM from "react-dom";
+import { ThemeProvider } from "@mui/material";
+import theme from "./theme";
+import App from "./App";
 
-const rootElement = document.getElementById('root');
-createRoot(rootElement).render(
+const Main = () => (
   <ThemeProvider theme={theme}>
     <App />
   </ThemeProvider>
 );
-
 
 ReactDOM.render(<Main />, document.getElementById("root"));

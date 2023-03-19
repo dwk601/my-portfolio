@@ -15,7 +15,7 @@ const theme = createTheme({
       main: "#b5d3f3",
     },
     quinary: {
-      main: "#b5d3f3",
+      main: "#FFFCF0",
     },
   },
   typography: {

@@ -1,0 +1,29 @@
+.skills-container {
+    margin: 2rem 0;
+    padding: 0 2rem;
+  }
+  
+  .skill-bar {
+    margin-bottom: 1rem;
+    position: relative;
+    transition: background-color 0.3s;
+  }
+  
+  .skill-bar:hover {
+    background-color: #aaacec;
+  }
+  
+  
+  .skill-level {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.8rem;
+    display: none;
+  }
+  
+  .skill-bar:hover .skill-level {
+    display: block;
+  }
+  
