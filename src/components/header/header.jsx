@@ -4,6 +4,8 @@ import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import "./header.css";
 
+import logo from "../../assets/logo_ori.png"
+
 const Header = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
@@ -18,9 +20,8 @@ const Header = () => {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Typography variant="h6" className="header-title">
-          Dongwook Kim
-        </Typography>
+        {/* Replace Typography component with img element */}
+        <img src={logo} alt="Logo" className="header-logo" />
         <Box className={isMobile ? "mobile-menu" : "desktop-menu"}>
           <Button color="inherit" onClick={() => scrollToSection("about")}>
             About Me
