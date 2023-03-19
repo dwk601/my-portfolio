@@ -32,9 +32,9 @@ const Header = () => {
           <Button color="inherit" onClick={() => scrollToSection("projects")}>
             Projects
           </Button>
-          <Button color="inherit" onClick={() => scrollToSection("experience")}>
+          {/* <Button color="inherit" onClick={() => scrollToSection("experience")}>
             Experience
-          </Button>
+          </Button> */}
           <Button color="inherit" onClick={() => scrollToSection("education")}>
             Education
           </Button>

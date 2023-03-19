@@ -3,6 +3,7 @@ import Header from "./components/header/header";
 import AboutMe from "./components/aboutme/aboutme";
 import Skills from "./components/skills/skills";
 import Projects from "./components/projects/projects";
+import Education from "./components/education/education";
 import "./App.css";
 
 const App = () => {
@@ -17,6 +18,9 @@ const App = () => {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="education">
+        <Education />
       </div>
       {/* The rest of your sections */}
     </div>
