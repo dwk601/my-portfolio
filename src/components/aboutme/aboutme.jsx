@@ -80,7 +80,7 @@ const AboutMe = () => {
           <Grid item xs={12} md={6}>
             <Avatar
               alt="Dongwook Kim"
-              src="/src/assets/Kim.png"
+              src="/public/Kim.png"
               sx={{ width: 300, height: 300, margin: 'auto' }}
             />
           </Grid>
