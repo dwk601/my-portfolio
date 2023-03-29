@@ -10,7 +10,7 @@ const Project = ({ title, description, technologies, link }) => (
       <Typography variant="body1" className="project-technologies">{technologies}</Typography>
     </CardContent>
     <Box className="project-link-container">
-      <Button href={link} target="_blank" rel="noopener noreferrer" variant="outlined" className="project-link">View on GitHub</Button>
+      <Button href={link} target="_blank" rel="noopener noreferrer" variant="outlined" className="project-link">View the Project</Button>
     </Box>
   </Card>
 );
