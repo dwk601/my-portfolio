@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: 'BuliishBet',
       description: 'BullishBet is a Python bot that predicts the future price of a stock using data from Reddit',
-      technologies: 'Flask, ython, cikit-learn, achine Learning, PIs',
+      technologies: 'Flask, ython, scikit-learn, achine Learning, PIs',
       link: 'https://github.com/dwk601/BullishBet',
     },
     {
