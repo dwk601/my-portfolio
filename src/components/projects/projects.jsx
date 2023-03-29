@@ -24,6 +24,12 @@ const Projects = () => {
       link: 'https://github.com/dwk601/Gptchat',
     },
     {
+      title: 'BuliishBet',
+      description: 'BullishBet is a Python bot that predicts the future price of a stock using data from Reddit',
+      technologies: 'Flask, ython, cikit-learn, achine Learning, PIs',
+      link: 'https://github.com/dwk601/BullishBet',
+    },
+    {
       title: 'Spotify Playlist Project',
       description: 'As a data engineering role at UVU Data Science Club, I am building a pipeline for the project with Python and Jupyter Notebooks.',
       technologies: 'Python, Jupyter Notebooks, Pandas',
