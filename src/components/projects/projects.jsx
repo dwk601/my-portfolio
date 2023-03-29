@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: 'BuliishBet',
       description: 'BullishBet is a Python bot that predicts the future price of a stock using data from Reddit',
-      technologies: 'Flask, ython, scikit-learn, achine Learning, PIs',
+      technologies: 'Flask, Python, scikit-learn, Machine Learning, APIs, Bootstrap',
       link: 'https://bullish-bet.herokuapp.com/',
     },
     {
