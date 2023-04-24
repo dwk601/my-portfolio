@@ -18,16 +18,22 @@ const Project = ({ title, description, technologies, link }) => (
 const Projects = () => {
   const projectList = [
     {
-      title: 'Gptchat',
-      description: 'A chatbot using the OpenAI API to generate answers. This full-stack web application is built using the Django framework and includes user authentication functionality.',
-      technologies: 'Django, OpenAI API, User Authentication',
-      link: 'https://github.com/dwk601/Gptchat',
+      title: 'AiSnap',
+      description: 'AISnap is an easy-to-use web application that allows users to upload images and get instant classification results using machine learning. The project utilizes Vite and React for the frontend and Express.js for the backend.',
+      technologies: 'Vite, React, Express.js, TensorFlow.js, Material-UI',
+      link: 'https://main--chimerical-sprinkles-c7fe7e.netlify.app/',
     },
     {
       title: 'BuliishBet',
       description: 'BullishBet is a Python bot that predicts the future price of a stock using data from Reddit',
       technologies: 'Flask, Python, scikit-learn, Machine Learning, APIs, Bootstrap',
       link: 'https://bullish-bet.herokuapp.com/',
+    },
+    {
+      title: 'Gptchat',
+      description: 'A chatbot using the OpenAI API to generate answers. This full-stack web application is built using the Django framework and includes user authentication functionality.',
+      technologies: 'Django, OpenAI API, User Authentication',
+      link: 'https://github.com/dwk601/Gptchat',
     },
     {
       title: 'Spotify Playlist Project',
