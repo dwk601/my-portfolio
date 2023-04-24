@@ -19,7 +19,7 @@ const Projects = () => {
   const projectList = [
     {
       title: 'AiSnap',
-      description: 'AISnap is an easy-to-use web application that allows users to upload images and get instant classification results using machine learning. The project utilizes Vite and React for the frontend and Express.js for the backend.',
+      description: 'AISnap is a Team Project based project which is an easy-to-use web application that allows users to upload images and get instant classification results using machine learning. The project utilizes Vite and React for the frontend and Express.js for the backend.',
       technologies: 'Vite, React, Express.js, TensorFlow.js, Material-UI',
       link: 'https://main--chimerical-sprinkles-c7fe7e.netlify.app/',
     },
